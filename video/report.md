@@ -98,6 +98,7 @@ curl 'http://api.bilibili.com/x/v2/history/report' \
 | sid         | num  | 番剧ssid                 | 非必要       |                                                              |
 | mid         | num  | 当前用户mid              | 非必要       |                                                              |
 | played_time | num  | 视频播放进度             | 非必要       | 单位为秒<br />默认为0                                        |
+| realplayed_time | num  | 视频播放进度             | 非必要       | 单位为秒<br />默认为0                                        |
 | realtime    | num  | 总计播放时间             | 非必要       | 单位为秒                                                     |
 | start_ts    | num  | 开始播放时刻             | 非必要       | 时间戳                                                       |
 | type        | num  | 视频类型                 | 非必要       | 3：投稿视频<br />4：剧集<br />10：课程                       |
